@@ -237,7 +237,7 @@
       (net 3 "/KEY_B_IN") (pinfunction "1") (pintype "passive") (tstamp 77d25fe0-dc10-4cff-8b6b-b46dd082daaa))
     (pad "2" smd roundrect locked (at 5.842 -5.08) (size 2.55 2.5) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.1)
       (net 1 "Net-(D1-Pad1)") (pinfunction "2") (pintype "passive") (tstamp d7aefdfa-9fc0-47f5-bbe5-38693cccd87c))
-    (model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_MX.wrl"
+    (model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_MX.stp"
       (offset (xyz 0 0 0.4))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1226,7 +1226,7 @@
       (net 1 "Net-(D1-Pad1)") (pinfunction "K") (pintype "passive") (tstamp df508225-cd9e-46ab-8c92-12dbac5d79eb))
     (pad "2" smd rect (at 1.65 0 270) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 2 "/KEY_A_IN") (pinfunction "A") (pintype "passive") (tstamp 29ebdce5-d92f-4763-9984-27b6bc221c12))
-    (model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1276,7 +1276,7 @@
       (net 2 "/KEY_A_IN") (pinfunction "Pin_3") (pintype "passive") (tstamp 4db139b6-6e6e-48bd-a444-611496d7c141))
     (pad "4" smd rect (at -2 -7.62 270) (size 3 1.7) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 2 "/KEY_A_IN") (pinfunction "Pin_4") (pintype "passive") (tstamp ae49b02c-d8ef-4953-8068-450e527f6d07))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Vertical.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Vertical.step"
       (offset (xyz 0 0 0.32))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 -90 0))

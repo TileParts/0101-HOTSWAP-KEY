@@ -1,0 +1,13 @@
+Designator,Footprint,Mid X,Mid Y,Ref X,Ref Y,Pad X,Pad Y,Layer,Rotation,Comment
+kibuzzard-631DE0D4,kibuzzard-631DE0D4,8.49mm,4.88mm,8.49mm,4.88mm,8.49mm,4.88mm,T,90,G***
+kibuzzard-631DE0DB,kibuzzard-631DE0DB,11.03mm,4.88mm,11.03mm,4.88mm,11.03mm,4.88mm,T,90,G***
+kibuzzard-631DE0E9,kibuzzard-631DE0E9,13.57mm,4.88mm,13.57mm,4.88mm,13.57mm,4.88mm,T,90,G***
+kibuzzard-631DE0FD,kibuzzard-631DE0FD,16.11mm,4.88mm,16.11mm,4.88mm,16.11mm,4.88mm,T,90,G***
+kibuzzard-631DE163,kibuzzard-631DE163,5.8mm,18.3mm,5.8mm,18.3mm,5.8mm,18.3mm,T,0,G***
+kibuzzard-631DE1A7,kibuzzard-631DE1A7,4.8mm,1.3mm,4.8mm,1.3mm,4.8mm,1.3mm,T,0,G***
+D1,D_SOD-123,19.3mm,5.3mm,19.3mm,5.3mm,19.3mm,6.95mm,B,-90,D
+J1,PinHeader_1x04_P2.54mm_Horizontal_SMD,8.49mm,2.5mm,8.49mm,2.5mm,8.49mm,4.5mm,B,-90,Conn_01x04
+Through Hole Items ,,,,,,,,,,
+H1,MountingHole_2.2mm_M2,22.3mm,9.8mm,22.3mm,9.8mm,22.3mm,9.8mm,T,0,MountingHole
+H2,MountingHole_2.2mm_M2,2.3mm,9.8mm,2.3mm,9.8mm,2.3mm,9.8mm,T,0,MountingHole
+SW1,SW_Hotswap_Kailh_MX_1.00u,12.3mm,9.8mm,12.3mm,9.8mm,5.215mm,12.34mm,T,0,SW_Push

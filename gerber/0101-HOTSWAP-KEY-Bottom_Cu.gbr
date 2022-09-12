@@ -1,0 +1,96 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,(6.0.7-1)-1*%
+%TF.CreationDate,2022-09-12T14:41:06+08:00*%
+%TF.ProjectId,0101-HOTSWAP-KEY,30313031-2d48-44f5-9453-5741502d4b45,V1.0*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Copper,L2,Bot*%
+%TF.FilePolarity,Positive*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW (6.0.7-1)-1) date 2022-09-12 14:41:06*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+G04 Aperture macros list*
+%AMRoundRect*
+0 Rectangle with rounded corners*
+0 $1 Rounding radius*
+0 $2 $3 $4 $5 $6 $7 $8 $9 X,Y pos of 4 corners*
+0 Add a 4 corners polygon primitive as box body*
+4,1,4,$2,$3,$4,$5,$6,$7,$8,$9,$2,$3,0*
+0 Add four circle primitives for the rounded corners*
+1,1,$1+$1,$2,$3*
+1,1,$1+$1,$4,$5*
+1,1,$1+$1,$6,$7*
+1,1,$1+$1,$8,$9*
+0 Add four rect primitives between the rounded corners*
+20,1,$1+$1,$2,$3,$4,$5,0*
+20,1,$1+$1,$4,$5,$6,$7,0*
+20,1,$1+$1,$6,$7,$8,$9,0*
+20,1,$1+$1,$8,$9,$2,$3,0*%
+G04 Aperture macros list end*
+%TA.AperFunction,SMDPad,CuDef*%
+%ADD10RoundRect,0.250000X-1.025000X-1.000000X1.025000X-1.000000X1.025000X1.000000X-1.025000X1.000000X0*%
+%TD*%
+%TA.AperFunction,SMDPad,CuDef*%
+%ADD11R,1.200000X0.900000*%
+%TD*%
+%TA.AperFunction,SMDPad,CuDef*%
+%ADD12R,1.700000X3.000000*%
+%TD*%
+%TA.AperFunction,Conductor*%
+%ADD13C,0.200000*%
+%TD*%
+G04 APERTURE END LIST*
+D10*
+%TO.P,SW1,1,1*%
+%TO.N,/KEY_B_IN*%
+X5215000Y12340000D03*
+%TO.P,SW1,2,2*%
+%TO.N,Net-(D1-Pad1)*%
+X18142000Y14880000D03*
+%TD*%
+D11*
+%TO.P,D1,1,K*%
+%TO.N,Net-(D1-Pad1)*%
+X19300000Y6950000D03*
+%TO.P,D1,2,A*%
+%TO.N,/KEY_A_IN*%
+X19300000Y3650000D03*
+%TD*%
+D12*
+%TO.P,J1,1,Pin_1*%
+%TO.N,/KEY_B_IN*%
+X8490000Y4500000D03*
+%TO.P,J1,2,Pin_2*%
+X11030000Y4500000D03*
+%TO.P,J1,3,Pin_3*%
+%TO.N,/KEY_A_IN*%
+X13570000Y4500000D03*
+%TO.P,J1,4,Pin_4*%
+X16110000Y4500000D03*
+%TD*%
+D13*
+%TO.N,Net-(D1-Pad1)*%
+X19300000Y11700000D02*
+X19300000Y6950000D01*
+X18115000Y12885000D02*
+X19300000Y11700000D01*
+X18115000Y14880000D02*
+X18115000Y12885000D01*
+%TO.N,/KEY_A_IN*%
+X17400000Y4500000D02*
+X13570000Y4500000D01*
+X19300000Y3650000D02*
+X18250000Y3650000D01*
+X18250000Y3650000D02*
+X17400000Y4500000D01*
+%TO.N,/KEY_B_IN*%
+X5215000Y12340000D02*
+X5215000Y5585000D01*
+X6300000Y4500000D02*
+X11030000Y4500000D01*
+X5215000Y5585000D02*
+X6300000Y4500000D01*
+%TD*%
+M02*
